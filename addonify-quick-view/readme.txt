@@ -5,8 +5,8 @@ Donate link: https://addonify.com/contact/
 Tags:  woocommerce, quick view, woocommerce quick view, products quick view, quickview
 Requires at least: 6.4
 Requires PHP: 7.4
-Tested up to: 6.7
-Stable tag: 2.0.0
+Tested up to: 6.7.1
+Stable tag: 2.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,7 +18,7 @@ Addonify WooCommerce Quick View plugin adds functionality to have a quick previe
 
 🌍 Official Demo: [Link 1](https://demo.addonify.com/woo/01/)
 🌍 Official Demo: [Link 2](https://demo.addonify.com/woo/01/quick-view-ii/)
-📜 Documentation: [Doc Link](https://docs.addonify.com/kb/woocommerce-quick-view/)
+📜 Documentation: [Doc Link](https://docs.addonify.com/kb/quick-view/)
 
 If you run an online e-commerce shop, then you must be familiar with the number of products that your users will see in your store page. This plugin allows your website visitors to quickly view the product summary instead of going through each product's detail page. This could save the time of your visitors & increase your revenue.
 
@@ -78,14 +78,24 @@ If you run an online e-commerce shop, then you must be familiar with the number 
 ✅ Customize misc buttons inside modal box color.
 ✅ More customization options, give it a try.
 
+**💎 PRO**
+
+[Addonify Quick View Pro](https://addonify.com/product/addonify-quick-view-for-woocommerce/) version comes with more advanced features and customization options. Some of the features are:
+
+✅ Track the viewed products with analytics.
+✅ Add the related products in quick view modal.
+✅ Add product navigation.
+✅ Enable social sharing from quick view modal.
+✅ Enable AJAX add to cart in quick view modal.
+✅ Unlock additional color options.
+✅ Unlock additional options to customize the modal.
+
 
 **📄 SHORTCODE**
 
 The shortcode below can used to display quick view button.
 
-```php
-[addonify_quick_view_button id="1" label="Quick View" classes="btn" icon="icon_one" icon_position="left"]
-```
+**[addonify_quick_view_button id="1" label="Quick View" classes="btn" icon="icon_one" icon_position="left"]**
 
 The shortcode attributes used are as follows:
 
@@ -100,10 +110,10 @@ The shortcode attributes used are as follows:
 
 Developers, we got you. Follow the links below to easily customize Addonify Quick View as you like.
 
-✅ Custom quick view button [Check Doc](https://docs.addonify.com/kb/woocommerce-quick-view/developer/)
-✅ Using Hooks & Filters [Check Doc](https://docs.addonify.com/kb/woocommerce-quick-view/developer/)
-✅ Overwrite plugin template file [Check Doc](https://docs.addonify.com/kb/woocommerce-quick-view/developer/)
-✅ JavaScript API [Check Doc](https://docs.addonify.com/kb/woocommerce-quick-view/developer/javascript-events/)
+✅ Custom quick view button [Check Doc](https://docs.addonify.com/kb/quick-view/developer/)
+✅ Using Hooks & Filters [Check Doc](https://docs.addonify.com/kb/quick-view/developer/)
+✅ Overwrite plugin template file [Check Doc](https://docs.addonify.com/kb/quick-view/developer/)
+✅ JavaScript API [Check Doc](https://docs.addonify.com/kb/quick-view/developer/javascript-events/)
 
 Still not sure how to start? Create [a new discussion](https://github.com/addonify/addonify-quick-view/discussions) and we will help you out.
 
@@ -144,7 +154,21 @@ Let's make Addonify Quick View better together. We are open to discuss how we ca
 
 == Changelog ==
 
+= 2.0.3 - 29 November, 2024 =
+
+- Fix: readme.
+
+= 2.0.2 - 29 November, 2024 =
+
+- Fix: readme.
+
+= 2.0.1 - 29 November, 2024 =
+
+- Fix: Documentation link.
+- Updated: Readme.
+
 = 2.0.0 - 25 November, 2024 =
+
 - Added:   Nonce verification for REST API.
 - Added:   `addonify_quick_view_add_setting_fields` hook to add setting fields from pro version.
 - Added:   `is_pro_active` boolean variable is localized.
@@ -157,7 +181,6 @@ Let's make Addonify Quick View better together. We are open to discuss how we ca
 - Removed: Option to enable dynamic style.
 - Tested:  WordPress version 6.7.1.
 - Tested:  WooCommerce version 9.4.2.
-
 
 = 1.2.17 - 19 July, 2024 =
 
